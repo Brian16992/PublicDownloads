@@ -210,11 +210,11 @@
 }
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
     background-color: #092c53;
-    border-color:; #375ca7;
+    border-color:; #006991;
 }
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
-    border-bottom-color: #375ca7;
+    border-bottom-color: #006991;
 }
 
 /* custom stuff for emoji page */
@@ -243,10 +243,10 @@
 
 .theme-dark .hasMore-3e72_v button {
     background: rgba(2, 22, 45, 0.9);
-    border: 1px solid #375ca7;
+    border: 1px solid #006991;
 }
 .hasMore-3e72_v button {
-    color: #375ca7;
+    color: #006991;
 }
 
 
