@@ -1,0 +1,49 @@
+/* changes position of top bar icons from right to left */
+.iconMargin-2YXk4F, .da-app .search .search-bar, .divider-2PMBlV, .theme-dark .searchPopout-1vUlP3 {
+	position: relative;
+    right: 120px;
+}
+/* fixes an issue because of changing position of search box */
+.search {
+    z-index: 0;
+}
+/* windows control buttons changing position to bottom to the top bar */
+.winButton-iRh8-Z {
+	position: relative;
+    bottom: 530px;
+	right: 13px;
+	top: 15px;
+	width: 2%;
+}
+
+/* hiding most of the windows control, not completely so it doesnt lose the dragging functionality */
+.typeWindows-1za-n7 {
+	height: 4px!important;
+    margin-top: 0px!important;
+}
+
+/* Fixes some issues with reposition */
+.theme-dark .container-3ayLPN {
+    position: relative;
+    right: 120px;
+}
+
+/* removes watermark */
+.wordmark-2iDDfm {
+	display:none;
+}
+
+/* position of some stuff */
+.browseSearch-e9jF-f, .libraryFilter-31ZUa2 {
+	margin-right: 130px;
+}
+/* a small fix for channel info */
+.da-topic {
+	max-width: 80%!important;
+}
+
+/* fix search area */
+.search-l1Wz-Q {
+	position: relative;
+    right: 120px;
+}
