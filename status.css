@@ -1,0 +1,79 @@
+/* changes status from a circle to a border around pfp */
+/* online */
+.online-2S838R {
+    border: 2px solid #00FF00!important;
+    background-color: transparent;
+}
+/* idle */
+.idle-3DEnRT {
+    background-color: transparent;
+    border: 2px solid #faa61a!important;
+}
+/* do not disturb */
+.dnd-1_xrcq {
+    background-color: transparent;
+    border: 2px solid #f04747!important;
+}
+/* offline */
+.invisible-1kp8Z0, .offline-3qoTek, .unknown-Ms2zdV {
+    background-color: transparent;
+    border: 2px solid #2f3136;
+}
+/* streaming removing background and adding border for status */
+.streaming-2_dnHe {
+    background-color: transparent;
+    border: 2px solid #593695;
+}
+/* position of those statuses in whos online list */
+.status-2s6iDp, .avatar-small .status, .channel-2QD9_O .status-1ibiUI, .container-2Thooq .da-wrapper .da-status {
+    bottom: -19px;
+    height: 30px;
+    width: 30px;
+    top: -7%;
+    left: -2px;
+    border-radius: 999px;
+    z-index: 1;
+}
+
+.inner-1W0Bkn {
+    z-index: 2;
+}
+/* position of those statuses in profile */
+.statusProfile-3ynqtt {
+    height: 88px;
+    width: 88px;
+    top: 0px;
+    left: -1px;
+}
+.maskProfile-1ObLFT, .mask-3OgeRz {
+    -webkit-mask: none;
+}
+.statusProfile-3ynqtt.online-2S838R, .statusProfile-3ynqtt.invisible-1kp8Z0, .statusProfile-3ynqtt.offline-3qoTek, .statusProfile-3ynqtt.unknown-Ms2zdV {
+    -webkit-box-shadow: none;
+}
+
+/* typing */
+.typing-1KJk_j {
+    position: relative!important;
+    top: -30px!important;
+    height: 26px!important;
+}
+.spinner-2enMB9 {
+    transform: scale(1.2);
+    background: rgba(0, 0, 0, 0.3);
+    margin-left: 1px;
+}
+
+/* status fixing some stuff */
+.da-item .da-statusIconText .da-online, .da-titleText .da-online, .da-selector .da-content .da-wrapper .da-online {
+    background-color: #00FF00;
+}
+.da-item .da-statusIconText .da-idle, .da-titleText .da-idle, .da-selector .da-content .da-wrapper .da-idle {
+    background-color: #faa61a;
+}
+.da-item .da-statusIconText .da-dnd, .da-titleText .da-dnd, .da-selector .da-content .da-wrapper .da-dnd {
+    background-color: #f04747;
+}
+.da-item .da-statusIconText .da-invisible, .da-titleText .da-offline, .da-selector .da-content .da-wrapper .da-offline {
+    background-color: #2f3136;
+}
