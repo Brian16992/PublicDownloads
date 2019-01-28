@@ -106,7 +106,7 @@
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 10px solid rgba(55, 92, 167, 0.4);
+    border-right: 10px solid rgba(0, 105, 145, 0.4);
 }
 
 .contentCozy-3XX413, .theme-dark .headerCozyMeta-rdohGq {
@@ -145,7 +145,7 @@
 /* invite group */
 .theme-dark .wrapper-35wsBm {
     background: rgba(2, 22, 45, 0.8);
-    border-color: rgb(27, 52, 95);
+    border-color: rgb(0, 105, 145);
 }
 
 
@@ -181,14 +181,14 @@
     background-color: rgb(8, 34, 63);
 }
 #bda-qem button:hover {
-    background: rgb(5, 31, 63);
+    background: rgb(0, 150, 200);
 }
 #bda-qem {
 	background-color: rgba(2, 22, 45, 0.9);
 }
 #bda-qem button {
-    border-left: 1px solid #375ca7;
-    border-top: 1px solid #375ca7;
+    border-left: 1px solid #006991;
+    border-top: 1px solid #006991;
 }
 #bda-qem-twitch-container, #bda-qem-favourite-container, .emoji-picker, .emojiPicker-3m1S-j {
 	 border: 1px solid #375ca7;
@@ -197,16 +197,16 @@
 	border-top: none;
 }
 #bda-qem button {
-    border-left: 1px solid #375ca7;
-    box-shadow: #375ca7 1px 0 0 0;
+    border-left: 1px solid #006991;
+    box-shadow: #006991 1px 0 0 0;
 }
 #bda-qem button.active {
-    background-color: #08294f;
+    background-color: #006991;
     color: #fff;
 }
 #bda-qem button {
     color: #99aab5;
-    border-left: 1px solid #375ca7;
+    border-left: 1px solid #006991;
 }
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
     background-color: #092c53;
