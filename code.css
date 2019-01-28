@@ -139,7 +139,7 @@
 /* guild button */
 .theme-dark .guild-1EfMGQ .guildInner-3DSoA4[style*="background-color: rgba(0, 105, 145, 0.20);"] {
 	background-color: var(--color-main)!important;
-	box-shadow: rgba(0, 105, 145,0.50) 0px 0px 20px;
+	box-shadow: rgba(0, 0, 0,0.0) 0px 0px 20px;
 }
 
 /* invite group */
