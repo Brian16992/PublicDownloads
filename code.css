@@ -137,7 +137,7 @@
 	background-color: var(--color-main);
 }
 /* guild button */
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4[style*="background-color: rgb(47, 49, 54);"] {
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4[style*="background-color: rgba(0, 105, 145, 0.20);"] {
 	background-color: var(--color-main)!important;
 	box-shadow: rgb(25, 45, 85) 0px 0px 20px;
 }
